@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19015" started-at="2021-06-04T03:12:16Z" finished-at="2021-06-04T03:12:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunnerClass@5cb9f472]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19015" started-at="2021-06-04T03:12:16Z" finished-at="2021-06-04T03:12:35Z">
+      <class name="steps.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.RunnerClass@5cb9f472]" name="setUpClass" is-config="true" duration-ms="492" started-at="2021-06-04T03:12:16Z" finished-at="2021-06-04T03:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunnerClass@5cb9f472]" name="runScenario" duration-ms="12747" started-at="2021-06-04T03:12:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-04T03:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_LoginLogout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate leaftaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunnerClass@5cb9f472]" name="runScenario" duration-ms="5521" started-at="2021-06-04T03:12:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-04T03:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Login for Failure"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate leaftaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.RunnerClass@5cb9f472]" name="tearDownClass" is-config="true" duration-ms="70" started-at="2021-06-04T03:12:35Z" finished-at="2021-06-04T03:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- steps.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
